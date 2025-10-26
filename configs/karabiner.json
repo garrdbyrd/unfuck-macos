@@ -1,0 +1,59 @@
+{
+    "profiles": [
+        {
+            "devices": [
+                {
+                    "identifiers": {
+                        "is_pointing_device": true,
+                        "product_id": 16642,
+                        "vendor_id": 1578
+                    },
+                    "ignore": false
+                }
+            ],
+            "fn_function_keys": [
+                {
+                    "from": { "key_code": "f1" },
+                    "to": [{ "key_code": "vk_none" }]
+                }
+            ],
+            "name": "unfuck-macos",
+            "selected": true,
+            "simple_modifications": [
+                {
+                    "from": { "key_code": "left_command" },
+                    "to": [{ "key_code": "f1" }]
+                },
+                {
+                    "from": { "key_code": "left_control" },
+                    "to": [{ "key_code": "left_command" }]
+                },
+                {
+                    "from": { "key_code": "left_option" },
+                    "to": [{ "key_code": "left_control" }]
+                },
+                {
+                    "from": { "key_code": "right_command" },
+                    "to": [{ "key_code": "right_option" }]
+                },
+                {
+                    "from": { "key_code": "right_control" },
+                    "to": [{ "key_code": "right_command" }]
+                },
+                {
+                    "from": { "key_code": "right_option" },
+                    "to": [{ "key_code": "right_control" }]
+                },
+                {
+                    "from": { "pointing_button": "button4" },
+                    "to": [{ "key_code": "left_arrow" }]
+                },
+                {
+                    "from": { "pointing_button": "button5" },
+                    "to": [{ "key_code": "right_arrow" }]
+                }
+            ],
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+        }
+    ]
+}
